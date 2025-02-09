@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/Images/ThankYou.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+       
+}
+
+#header{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold; 
+    margin: 70px;  
+}
+#Heading{
+    color: #2a2b6b;
+    text-align: center;
+    font-size: 35px;
+}
+
+#msg{
+    color: #2a2b6b;
+    text-align: center;
+    font-size: 25px;
+}

@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2a2b6b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#image{
+    height: 600px;
+    width: 600px;
+    margin-top: 100px;
+}
+
+#RegisterPage{
+    height: 500px;
+    width: 400px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#Heading{
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+#main{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+}
+
+#NGOName{
+    height: 20px;
+    width: 345px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#Trust{
+    height: 20px;
+    width: 345px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#PAN{
+    height: 20px;
+    width: 345px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#DARPAN{
+    height: 20px;
+    width: 345px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+
+#Address{
+    width: 345px;
+    height: 20px;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#country{
+    height: 25px;
+    border: 2px solid #2a2b6b;
+    border-radius: 5px;
+}
+
+#Mobile{
+    height: 20px;
+    width: 110px;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#Email{
+    height: 20px;
+    width: 180px;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+#Registerbtn{
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #2a2b6b;
+    transition: box-shadow 0.8s ease;
+}
+
+#Registerbtn:hover{
+    box-shadow: 5px 5px 20px #2a2b6b;
+    cursor: pointer;
+}
+
+/*
+To remove arrows in mobile number 
+*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

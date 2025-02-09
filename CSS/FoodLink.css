@@ -1,0 +1,419 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 170px;
+    width: 100%;
+    background:  #2A2B6B;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#logo {
+    height: 180px;
+    width: 200px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+    align-self: self-start;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 5px;
+    margin-left: 20px;
+    align-self: center;
+    color: white; 
+    line-height: 10px;
+}
+
+#subtitle{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 5px;
+    margin-left: 20px;
+    align-self: center;
+    color: white; 
+}
+#tologin{
+    display: flex;
+    margin-left: 900px;
+    
+}
+
+#NGO{
+    color: white;
+}
+
+#Login{   
+    height: 32px;
+    width: 90px;
+    background-color: #f60; 
+    color: white; 
+    font-size: 23px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+
+#Login:hover{ 
+    cursor: pointer;
+}
+
+.info {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 50px;
+}
+
+#about {
+    height: 350px;
+    width: 350px;
+    background-color: #ffffff; 
+    border: 2px solid #2a2b6b; 
+    border-radius: 20%;
+    font-size: 23px;
+    color: #2a2b6b; 
+    background-image: url(/Images/AboutUs.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+#about:hover {
+    transform: scale(1.1);
+}
+
+#support {
+    height: 350px;
+    width: 350px;
+    background-color: #ffffff; 
+    border: 2px solid #2a2b6b; 
+    border-radius: 20%;
+    font-size: 23px;
+    color: #2a2b6b; 
+    background-image: url(/Images/RegisterUs.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+#support:hover {
+    transform: scale(1.1);
+}
+
+#donate {
+    height: 350px;
+    width: 350px;
+    background-color: #ffffff;
+    border: 2px solid #2a2b6b; 
+    border-radius: 20%;
+    font-size: 23px;
+    color: #2a2b6b; 
+    background-image: url(/Images/DonateUs.png);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+#donate:hover {
+    transform: scale(1.1);
+}
+
+
+#button1 {
+    height: 50px;
+    width: 190px;
+    background-color: #f60; 
+    color: #ffffff; 
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: box-shadow 0.8s ease;
+}
+
+#button1:hover {
+    box-shadow: 5px 5px 20px #2a2b6b; 
+    cursor: pointer;
+}
+
+#button2 {
+    height: 50px;
+    width: 190px;
+    background-color: #f60; 
+    color: #ffffff; 
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: box-shadow 0.8s ease;
+}
+
+#button2:hover {
+    box-shadow: 5px 5px 20px #2a2b6b; 
+    cursor: pointer;
+}
+
+
+#button3 {
+    height: 50px;
+    width: 190px;
+    background-color: #f60; 
+    color: #ffffff; 
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: box-shadow 0.8s ease;
+}
+
+#button3:hover {
+    box-shadow: 5px 5px 20px #2a2b6b; 
+    cursor: pointer;
+}
+
+#welcome{
+    height: 390px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background-image: url(/Images/DonationBackground.avif);
+    background-size: cover;
+}
+
+#join{
+    color:#f60;
+    display: inherit;
+    font-weight: bold;
+}
+
+#message{  
+    color: white; 
+    width: 900PX;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#message2{  
+    color: #2a2b6b; 
+    width: 900PX;
+    font-size: 23px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#why{
+    height: 310px;
+    width: 100%;
+    color: #2a2b6b;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;    
+}
+
+.master{
+    height: 470px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#donation {
+    width: 100%;
+    display: block;
+    line-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#form {
+    height: 470px;
+    width: 400px;
+    color: #2a2b6b;
+    background-color: #ffffff; 
+    border: 2px solid #2a2b6b;
+    padding-left: 10px;
+    text-align: left;
+    border-radius: 5%;
+}
+
+#donationh {
+    text-align: center;
+}
+
+#name {
+    height: 20px;
+    width: 250px;
+    line-height: 20px;
+    border: 2px solid #2a2b6b;
+    border-radius: 5px;
+}
+
+#address {
+    height: 20px;
+    width: 250px;
+    line-height: 20px;
+    border: 2px solid #2A2B6B;
+    border-radius: 5px;
+}
+
+#description {
+    height: 90px;
+    width: 350px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #2a2b6b;
+    border-radius: 5px;
+    resize: none; 
+    overflow: auto;
+}
+
+#reg {
+    height: 35px;
+    width: 100px;
+    background-color: #f60; 
+    color: #ffffff; 
+    font-size: 23px;
+    border: 2px solid #2a2b6b;
+    border-radius: 10%;
+    transition: box-shadow 0.8s ease;
+    position: relative;
+    left: 150px;
+}
+
+#reg:hover {
+    box-shadow: 5px 5px 20px #2a2b6b; 
+    cursor: pointer;
+}
+
+#donationmoney {
+    width: 100%;
+    display: block;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#formmoney {
+    height: 350px;
+    width: 400px;
+    margin-top: 60px;
+    color: #2a2b6b;
+    background-color: #ffffff; 
+    border: 2px solid #2a2b6b; 
+    padding-left: 10px;
+    text-align: left;
+    border-radius: 5%;
+}
+
+#donationhm {
+    text-align: center;
+}
+
+#namemoney {
+    height: 20px;
+    width: 250px;
+    line-height: 20px;
+    border: 2px solid #2a2b6b;
+    border-radius: 5px;
+}
+
+#mobile {
+    height: 20px;
+    width: 110px;
+    line-height: 20px;
+    border: 2px solid #2a2b6b;
+    border-radius: 5px;
+}
+
+#amount {
+    height: 20px;
+    width: 85px;
+    line-height: 20px;
+    border: 2px solid #2a2b6b;
+    border-radius: 5px;
+}
+
+#country{
+    border: 2px solid #2a2b6b;
+    border-radius: 5px;
+}
+
+#type{
+    border: 2px solid #2a2b6b;
+    border-radius: 5px; 
+}
+
+#donatemoney {
+    height: 35px;
+    width: 100px;
+    background-color: #f60; 
+    color: #ffffff; 
+    font-size: 23px;
+    border: 2px solid #2a2b6b;
+    border-radius: 10%;
+    transition: box-shadow 0.8s ease;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    
+}
+
+#donatemoney:hover {
+    box-shadow: 5px 5px 20px #2a2b6b; 
+    cursor: pointer;
+}
+
+#Footer{
+    height: 200px;
+    width: 100%;
+    color:white;
+    background-color: #2A2B6B;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+#ayoutube{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*
+To remove arrows in mobile number 
+*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
