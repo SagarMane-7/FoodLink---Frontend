@@ -1,15 +1,15 @@
-let Register = document.querySelector("#Registerbtn");
+let Register = document.querySelector("#registerbtn");
 
 Register.addEventListener("click", function (event) {
     event.preventDefault(); 
 
-    let NGOName = document.querySelector("#NGOName").value;
-    let Address = document.querySelector("#Address").value;
-    let Mobile = document.querySelector("#Mobile").value;
-    let Email = document.querySelector("#Email").value;
-    let PAN = document.querySelector("#PAN").value;
-    let Trust = document.querySelector("#Trust").value;
-    let DARPAN = document.querySelector("#DARPAN").value;
+    let NGOName = document.querySelector("#NGOname").value;
+    let Address = document.querySelector("#address").value;
+    let Mobile = document.querySelector("#mobile").value;
+    let Email = document.querySelector("#email").value;
+    let PAN = document.querySelector("#PANID").value;
+    let Trust = document.querySelector("#trustID").value;
+    let DARPAN = document.querySelector("#DARPANID").value;
     if (NGOName === "" || Address === "" || Mobile === "" || Email === "" || PAN==="" || Trust==="" ) {
         alert("All Fields are Mandatory.");
         return;
@@ -23,5 +23,5 @@ Register.addEventListener("click", function (event) {
         return;
     }
     alert("Registration successful! Your login details will be sent to your email shortly.");
-    window.location.href = "/HTML/FoodLink.html";
+    window.location.href = "/FoodLink.html";
 });

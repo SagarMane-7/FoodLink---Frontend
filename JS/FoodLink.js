@@ -1,30 +1,30 @@
-let Login=document.querySelector("#Login");
+let Login=document.querySelector("#loginbtn");
 Login.addEventListener('click', function(event){
     event.preventDefault();
     window.location.href = '/HTML/Login Page.html'
 });
 
-let Register=document.querySelector("#button2");
+let Register=document.querySelector("#registerbtn");
 Register.addEventListener('click', function(event){
     event.preventDefault();
     window.location.href = '/HTML/Registration.html'
 });
 
-let Scrolldown=document.querySelector("#button3");
-let ToScrolldown=document.querySelector(".master");
+let Scrolldown=document.querySelector("#donateusbtn");
+let ToScrolldown=document.querySelector(".donation");
 Scrolldown.addEventListener("click",function(event){
     event.preventDefault();
     ToScrolldown.scrollIntoView({behavior:"smooth"});
 })
 
 
-let Reg=document.querySelector("#reg");
+let Reg=document.querySelector("#fddonatebtn");
 Reg.addEventListener('click', function(event){
     event.preventDefault();
-    let name=document.querySelector("#name").value
-    let mobile=document.querySelector("#mobile").value
-    let address=document.querySelector("#address").value
-    let description=document.querySelector("#description").value
+    let name=document.querySelector("#fdname").value
+    let mobile=document.querySelector("#fdmobile").value
+    let address=document.querySelector("#fdaddress").value
+    let description=document.querySelector("#fddescription").value
 
     if(name==="" || mobile==="" || address==="" || description===""){
         alert("All Fields are Mandatory.")
@@ -39,12 +39,12 @@ Reg.addEventListener('click', function(event){
     window.location.href = '/HTML/Donation Sucessfull.html'
 });
 
-let donatemoney=document.querySelector("#donatemoney");
+let donatemoney=document.querySelector("#mddonatebtn");
 donatemoney.addEventListener('click', function(event){
     event.preventDefault();
-    let namemoney=document.querySelector("#namemoney").value
-    let mobile=document.querySelector("#mobile").value
-    let amount=document.querySelector("#amount").value
+    let namemoney=document.querySelector("#mdname").value
+    let mobile=document.querySelector("#mdmobile").value
+    let amount=document.querySelector("#mdamount").value
 
     if(namemoney==="" || mobile==="" || amount===""){
         alert("All Fields are Mandatory.")

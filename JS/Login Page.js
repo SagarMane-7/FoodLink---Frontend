@@ -1,4 +1,4 @@
-let Register=document.querySelector("#Register");
+let Register=document.querySelector("#register");
 
 Register.addEventListener('click', function(event){
     event.preventDefault();
