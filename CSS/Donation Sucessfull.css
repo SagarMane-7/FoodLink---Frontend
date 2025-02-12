@@ -7,17 +7,15 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
-       
 }
 
-#header{
+#thanksmsg{
     width: 800px;
-    display: flex;
-    justify-content: center;
     font-weight: bold; 
-    margin: 70px;  
+    margin: 70px; 
+    text-align: center; 
 }
-#Heading{
+#title{
     color: #2a2b6b;
     text-align: center;
     font-size: 35px;

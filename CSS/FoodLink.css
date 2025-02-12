@@ -6,6 +6,7 @@ body {
 }
 
 .header {
+    color: white;
     height: 170px;
     width: 100%;
     background:  #2A2B6B;
@@ -15,7 +16,7 @@ body {
     align-items: center;
 }
 
-#logo {
+#logo{
     height: 180px;
     width: 200px;
     margin-left: 20px;
@@ -24,13 +25,12 @@ body {
     align-self: self-start;
 }
 
-#title {
+#title{
     font-weight: bold;
     font-size: 50px;
     line-height: 5px;
     margin-left: 20px;
     align-self: center;
-    color: white; 
     line-height: 10px;
 }
 
@@ -40,146 +40,28 @@ body {
     line-height: 5px;
     margin-left: 20px;
     align-self: center;
-    color: white; 
 }
-#tologin{
+
+#login{
     display: flex;
-    margin-left: 900px;
-    
+    margin-left: 900px;    
 }
 
-#NGO{
-    color: white;
-}
-
-#Login{   
+#loginbtn{   
     height: 32px;
     width: 90px;
-    background-color: #f60; 
-    color: white; 
+    color: #ffffff;
+    background-color: #f60;  
     font-size: 23px;
     border: 2px solid #ffffff;
     border-radius: 5px;
 }
 
-
-#Login:hover{ 
+#loginbtn:hover{ 
     cursor: pointer;
 }
 
-.info {
-    height: 400px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: start;
-    justify-content: space-around;
-    align-content: center;
-    margin-top: 50px;
-}
-
-#about {
-    height: 350px;
-    width: 350px;
-    background-color: #ffffff; 
-    border: 2px solid #2a2b6b; 
-    border-radius: 20%;
-    font-size: 23px;
-    color: #2a2b6b; 
-    background-image: url(/Images/AboutUs.jpg);
-    background-size: cover;
-    transition: transform 0.5s ease-in-out;
-}
-
-#about:hover {
-    transform: scale(1.1);
-}
-
-#support {
-    height: 350px;
-    width: 350px;
-    background-color: #ffffff; 
-    border: 2px solid #2a2b6b; 
-    border-radius: 20%;
-    font-size: 23px;
-    color: #2a2b6b; 
-    background-image: url(/Images/RegisterUs.jpg);
-    background-size: cover;
-    transition: transform 0.5s ease-in-out;
-}
-
-#support:hover {
-    transform: scale(1.1);
-}
-
-#donate {
-    height: 350px;
-    width: 350px;
-    background-color: #ffffff;
-    border: 2px solid #2a2b6b; 
-    border-radius: 20%;
-    font-size: 23px;
-    color: #2a2b6b; 
-    background-image: url(/Images/DonateUs.png);
-    background-size: cover;
-    transition: transform 0.5s ease-in-out;
-}
-
-#donate:hover {
-    transform: scale(1.1);
-}
-
-
-#button1 {
-    height: 50px;
-    width: 190px;
-    background-color: #f60; 
-    color: #ffffff; 
-    font-size: 23px;
-    border: 2px solid black;
-    border-radius: 10px;
-    transition: box-shadow 0.8s ease;
-}
-
-#button1:hover {
-    box-shadow: 5px 5px 20px #2a2b6b; 
-    cursor: pointer;
-}
-
-#button2 {
-    height: 50px;
-    width: 190px;
-    background-color: #f60; 
-    color: #ffffff; 
-    font-size: 23px;
-    border: 2px solid black;
-    border-radius: 10px;
-    transition: box-shadow 0.8s ease;
-}
-
-#button2:hover {
-    box-shadow: 5px 5px 20px #2a2b6b; 
-    cursor: pointer;
-}
-
-
-#button3 {
-    height: 50px;
-    width: 190px;
-    background-color: #f60; 
-    color: #ffffff; 
-    font-size: 23px;
-    border: 2px solid black;
-    border-radius: 10px;
-    transition: box-shadow 0.8s ease;
-}
-
-#button3:hover {
-    box-shadow: 5px 5px 20px #2a2b6b; 
-    cursor: pointer;
-}
-
-#welcome{
+.msg1{
     height: 390px;
     width: 100%;
     text-align: center;
@@ -193,13 +75,13 @@ body {
     background-size: cover;
 }
 
-#join{
+#msg1title{
     color:#f60;
     display: inherit;
     font-weight: bold;
 }
 
-#message{  
+#msg1para{  
     color: white; 
     width: 900PX;
     font-size: 23px;
@@ -211,18 +93,117 @@ body {
     flex-wrap: wrap;
 }
 
-#message2{  
-    color: #2a2b6b; 
-    width: 900PX;
-    font-size: 23px;
+.information{
+    height: 400px;
+    width: 100%;
     text-align: center;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: start;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 50px;
 }
 
-#why{
+#aboutus{
+    height: 350px;
+    width: 350px;
+    background-color: #ffffff; 
+    border: 2px solid #2a2b6b; 
+    border-radius: 20%;
+    font-size: 23px;
+    color: #2a2b6b; 
+    background-image: url(/Images/AboutUs.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+#aboutus:hover{
+    transform: scale(1.1);
+}
+
+#aboutusbtn{
+    height: 50px;
+    width: 190px;
+    background-color: #f60; 
+    color: #ffffff; 
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: box-shadow 0.8s ease;
+}
+
+#aboutusbtn:hover{
+    box-shadow: 5px 5px 20px #2a2b6b; 
+    cursor: pointer;
+}
+
+#register{
+    height: 350px;
+    width: 350px;
+    background-color: #ffffff; 
+    border: 2px solid #2a2b6b; 
+    border-radius: 20%;
+    font-size: 23px;
+    color: #2a2b6b; 
+    background-image: url(/Images/RegisterUs.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+#register:hover{
+    transform: scale(1.1);
+}
+
+#registerbtn{
+    height: 50px;
+    width: 190px;
+    background-color: #f60; 
+    color: #ffffff; 
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: box-shadow 0.8s ease;
+}
+
+#registerbtn:hover{
+    box-shadow: 5px 5px 20px #2a2b6b; 
+    cursor: pointer;
+}
+
+#donateus{
+    height: 350px;
+    width: 350px;
+    background-color: #ffffff;
+    border: 2px solid #2a2b6b; 
+    border-radius: 20%;
+    font-size: 23px;
+    color: #2a2b6b; 
+    background-image: url(/Images/DonateUs.png);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+#donateus:hover{
+    transform: scale(1.1);
+}
+
+#donateusbtn{
+    height: 50px;
+    width: 190px;
+    background-color: #f60; 
+    color: #ffffff; 
+    font-size: 23px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: box-shadow 0.8s ease;
+}
+
+#donateusbtn:hover{
+    box-shadow: 5px 5px 20px #2a2b6b; 
+    cursor: pointer;
+}
+
+.msg2{
     height: 310px;
     width: 100%;
     color: #2a2b6b;
@@ -235,14 +216,31 @@ body {
     padding-top: 20px;    
 }
 
-.master{
+#msg2title{
+    color:#f60;
+    display: inherit;
+    font-weight: bold;
+}
+
+#msg2para{  
+    color: #2a2b6b; 
+    width: 900PX;
+    font-size: 23px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.donation{
     height: 470px;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
 
-#donation {
+.fooddonation{
     width: 100%;
     display: block;
     line-height: 50px;
@@ -252,7 +250,7 @@ body {
     text-align: center;
 }
 
-#form {
+#fdform {
     height: 470px;
     width: 400px;
     color: #2a2b6b;
@@ -263,11 +261,11 @@ body {
     border-radius: 5%;
 }
 
-#donationh {
+#fdtitle{
     text-align: center;
 }
 
-#name {
+#fdname{
     height: 20px;
     width: 250px;
     line-height: 20px;
@@ -275,7 +273,20 @@ body {
     border-radius: 5px;
 }
 
-#address {
+#fdmobile{
+    height: 20px;
+    width: 110px;
+    line-height: 20px;
+    border: 2px solid #2a2b6b;
+    border-radius: 5px;
+}
+
+#countrycode{
+    border: 2px solid #2a2b6b;
+    border-radius: 5px;
+}
+
+#fdaddress{
     height: 20px;
     width: 250px;
     line-height: 20px;
@@ -283,7 +294,12 @@ body {
     border-radius: 5px;
 }
 
-#description {
+#typeoffood{
+    border: 2px solid #2a2b6b;
+    border-radius: 5px; 
+}
+
+#fddescription{
     height: 90px;
     width: 350px;
     font-size: 15px;
@@ -294,25 +310,25 @@ body {
     overflow: auto;
 }
 
-#reg {
+#fddonatebtn{
     height: 35px;
     width: 100px;
     background-color: #f60; 
     color: #ffffff; 
     font-size: 23px;
     border: 2px solid #2a2b6b;
-    border-radius: 10%;
+    border-radius: 10px;
     transition: box-shadow 0.8s ease;
     position: relative;
     left: 150px;
 }
 
-#reg:hover {
+#fddonatebtn:hover {
     box-shadow: 5px 5px 20px #2a2b6b; 
     cursor: pointer;
 }
 
-#donationmoney {
+.moneydonation{
     width: 100%;
     display: block;
     line-height: 60px;
@@ -322,7 +338,7 @@ body {
     text-align: center;
 }
 
-#formmoney {
+#mdform{
     height: 350px;
     width: 400px;
     margin-top: 60px;
@@ -334,11 +350,11 @@ body {
     border-radius: 5%;
 }
 
-#donationhm {
+#mdtitle{
     text-align: center;
 }
 
-#namemoney {
+#mdname{
     height: 20px;
     width: 250px;
     line-height: 20px;
@@ -346,7 +362,7 @@ body {
     border-radius: 5px;
 }
 
-#mobile {
+#mdmobile{
     height: 20px;
     width: 110px;
     line-height: 20px;
@@ -354,7 +370,7 @@ body {
     border-radius: 5px;
 }
 
-#amount {
+#mdamount{
     height: 20px;
     width: 85px;
     line-height: 20px;
@@ -362,37 +378,26 @@ body {
     border-radius: 5px;
 }
 
-#country{
-    border: 2px solid #2a2b6b;
-    border-radius: 5px;
-}
-
-#type{
-    border: 2px solid #2a2b6b;
-    border-radius: 5px; 
-}
-
-#donatemoney {
+#mddonatebtn{
     height: 35px;
     width: 100px;
     background-color: #f60; 
     color: #ffffff; 
     font-size: 23px;
     border: 2px solid #2a2b6b;
-    border-radius: 10%;
+    border-radius: 10px;
     transition: box-shadow 0.8s ease;
     text-align: center;
     position: relative;
-    left: 150px;
-    
+    left: 150px; 
 }
 
-#donatemoney:hover {
+#mddonatebtn:hover{
     box-shadow: 5px 5px 20px #2a2b6b; 
     cursor: pointer;
 }
 
-#Footer{
+.Footer{
     height: 200px;
     width: 100%;
     color:white;
@@ -403,7 +408,7 @@ body {
 }
 
 
-#ayoutube{
+#socialmedia,#gmap{
     color: white;
     text-decoration: none;
 }

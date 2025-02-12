@@ -15,7 +15,8 @@ body {
     margin-top: 100px ;
 
 }
-#LoginPage{
+
+.loginpage{
     height: 350px;
     width: 350px;
     color: #ffffff;
@@ -30,12 +31,12 @@ body {
     margin-top: 200px;
 }
 
-#Heading{
+#title{
     color: #ffffff;
     font-size: 40px;
 }
 
-#Username{
+#username{
     margin-top: 5px;
     margin-bottom: 25px;
     border: 2px solid #ffffff;
@@ -43,14 +44,14 @@ body {
 }
 
 
-#Password{
+#password{
     margin-bottom: 25px;
     border: 2px solid #ffffff;
     border-radius: 5px;
 }
 
 
-#Loginbtn{
+#loginbtn{
     font-size: 20px;
     height: 30px;
     width: 85px;
@@ -61,12 +62,12 @@ body {
     background-color: #2a2b6b;
 }
 
-#Loginbtn:hover{
+#loginbtn:hover{
     box-shadow: 5px 5px 20px #2a2b6b;
     cursor: pointer;
 }
 
-#Register{
+#register{
     color: #ffffff;
     text-decoration: underline;
     cursor: pointer;
