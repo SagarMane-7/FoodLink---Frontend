@@ -21,7 +21,6 @@ body {
     margin-left: 20px;
     display: flex;
     justify-content: start;
-    align-self: self-start;
 }
 
 #title{
