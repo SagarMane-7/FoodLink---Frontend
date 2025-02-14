@@ -66,9 +66,8 @@ body {
     text-align: center;
     font-size: 35px;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     padding-top: 20px;
     background-image: url(/Images/DonationBackground.avif);
     background-size: cover;
