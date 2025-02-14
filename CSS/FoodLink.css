@@ -30,7 +30,8 @@ body {
 #subtitle{
     font-weight: bold;
     font-size: 20px;
-    margin-left: 20px;
+    padding-top: 5px;
+    margin-left: 20px;   
 }
 
 #login{
@@ -67,13 +68,15 @@ body {
 }
 
 #msg1title{
-    color:#f60;   
+    color:#f60;
+    
 }
 
 #msg1para{  
     color: white; 
     width: 900PX;
     font-size: 23px;
+    
 }
 
 .information{
@@ -215,12 +218,6 @@ body {
     margin-top: 20px;
 }
 
-.fooddonation{
-    width: 100%;
-    display: block;
-    line-height: 50px;
-}
-
 #fdform {
     height: 470px;
     width: 400px;
@@ -229,7 +226,8 @@ body {
     border: 2px solid #2a2b6b;
     padding-left: 10px;
     text-align: left;
-    border-radius: 5%;
+    border-radius: 25px;
+    line-height: 50px;
 }
 
 #fdtitle{
@@ -299,16 +297,6 @@ body {
     cursor: pointer;
 }
 
-.moneydonation{
-    width: 100%;
-    display: block;
-    line-height: 60px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
 #mdform{
     height: 350px;
     width: 400px;
@@ -318,7 +306,7 @@ body {
     border: 2px solid #2a2b6b; 
     padding-left: 10px;
     text-align: left;
-    border-radius: 5%;
+    border-radius: 25px;
 }
 
 #mdtitle{
