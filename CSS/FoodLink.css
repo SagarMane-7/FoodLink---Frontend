@@ -19,8 +19,6 @@ body {
     height: 180px;
     width: 200px;
     margin-left: 20px;
-    display: flex;
-    justify-content: start;
 }
 
 #title{
