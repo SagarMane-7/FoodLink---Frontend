@@ -94,7 +94,6 @@ body {
     display: flex;
     justify-content: start;
     justify-content: space-around;
-    align-content: center;
     margin-top: 50px;
 }
 
@@ -205,9 +204,8 @@ body {
     font-size: 35px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 20px;    
+    margin-top: 20px;    
 }
 
 #msg2title{
@@ -220,11 +218,6 @@ body {
     color: #2a2b6b; 
     width: 900PX;
     font-size: 23px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .donation{
