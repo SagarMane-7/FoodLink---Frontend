@@ -7,22 +7,20 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 #thanksmsg{
     width: 800px;
     font-weight: bold; 
-    margin: 70px; 
-    text-align: center; 
+    margin: 70px;  
 }
 #title{
     color: #2a2b6b;
-    text-align: center;
     font-size: 35px;
 }
 
 #msg{
     color: #2a2b6b;
-    text-align: center;
     font-size: 25px;
 }
