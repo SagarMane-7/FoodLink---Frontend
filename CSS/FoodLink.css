@@ -72,7 +72,6 @@ body {
 
 #msg1title{
     color:#f60;
-    display: inherit;
     font-weight: bold;
 }
 
@@ -206,7 +205,6 @@ body {
 
 #msg2title{
     color:#f60;
-    display: inherit;
     font-weight: bold;
 }
 
